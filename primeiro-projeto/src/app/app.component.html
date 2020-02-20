@@ -1,0 +1,8 @@
+<app-meu-primeiro [(valor)]="valor" *ngIf="ativo">
+  <div class="titulo">Título</div>
+  <div class="conteudo">Texto</div>
+</app-meu-primeiro>
+
+<button (click)="soma()">soma</button>
+<button (click)="setCiclo(false)">deletar</button>
+<button (click)="setCiclo(true)">iniciar</button> {{valor}}
