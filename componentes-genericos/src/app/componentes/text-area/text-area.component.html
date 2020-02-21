@@ -1,0 +1,6 @@
+<div class="form-group">
+  <label for="exampleFormControlTextarea1">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" [value]='valor'
+    (input)="onChange($event)"></textarea><br />
+  <span *ngIf="maxlength>0">{{valuelength}}/{{maxlength}} caracteres </span>
+</div>
